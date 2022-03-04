@@ -1,0 +1,136 @@
+:root {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.homepage__background {
+    position: relative;
+    width: 1440px;
+    height: 720px;
+    background: linear-gradient(119.36deg, #4572ee 0%, #1bd890 100%);
+
+}
+
+.frame__background {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    margin: 150px 350px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 15px 20px 20px rgb(195, 85, 238);
+
+
+}
+
+.free__and__prowebsite {
+    color: #151A46;
+    font-size: 1.5rem;
+    width: 350px;
+    margin-top: 35px;
+    margin-left: 50px;
+
+}
+
+.choose__from {
+    color: grey;
+    width: 500px;
+    font-size: 0.95rem;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.input__frame {
+    width: 450px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(228, 225, 225);
+
+}
+
+.input__frame::placeholder {
+    color: #4572ee;
+    opacity: 30%;
+    font-size: 1.10rem;
+}
+
+.search__button {
+    width: 100px;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: #151A46;
+    background-color: #151A46;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #151A46;
+}
+
+.search__button:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+    opacity: 60%;
+}
+
+.common__searches {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 0.75rem;
+    color: grey;
+    opacity: 60%;
+}
+
+.blog__business__portfolio__ecommerce {
+    display: flex;
+    cursor: pointer;
+    margin: 20px 10px 0px 18px;
+    justify-content: space-evenly;
+
+}
+
+
+.blog {
+    width: 97px;
+    background-color: #FFEDF3;
+    color: #D0678A;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 5px #D0678A;
+}
+
+.business {
+    width: 135px;
+    background-color: #F4EDFF;
+    color: #805BBC;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 5px #805BBC;
+}
+
+.portfolio {
+    width: 131px;
+    background-color: #DFF4D7;
+    color: #51933E;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 5px #51933E;
+}
+
+.ecommerce {
+    width: 158px;
+    background-color: #FFECDA;
+    color: #E27F23;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 5px 5px #E27F23;
+}
